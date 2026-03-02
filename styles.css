@@ -1,0 +1,133 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* HEADER */
+.site-header {
+  background: #111;
+  color: white;
+  padding: 20px 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: #f4b400;
+}
+
+/* HERO */
+.hero {
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("images/hero-cinema.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn-dark {
+  background: #f4b400;
+  color: black;
+}
+
+.btn-dark:hover {
+  background: #e09e00;
+}
+
+/* FEATURES */
+.features {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.features-grid {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+/* SECONDARY */
+.secondary {
+  padding: 60px 0;
+}
+
+.secondary-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+/* CTA */
+.cta {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* FOOTER */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
